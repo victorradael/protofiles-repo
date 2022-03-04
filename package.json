@@ -1,10 +1,11 @@
 {
-  "name": "protolib",
-  "version": "1.0.0",
+  "name": "super-protolib-rdl",
+  "version": "1.0.1",
   "description": "Protofiles to use in microservices.",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc && node dist/main.js",
+    "build": "tsc --build",
+    "start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
