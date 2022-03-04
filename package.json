@@ -1,22 +1,31 @@
 {
-  "name": "ddfr-protolib",
+  "name": "protolib",
   "version": "1.0.0",
-  "description": "",
+  "description": "Protofiles to use in microservices.",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc && node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorradael/protofiles-repo.git"
+  },
   "keywords": [
-    "proto"
+    "protofile",
+    "protobuf"
   ],
   "author": "Victor Radael",
   "license": "ISC",
-  "dependencies": {
-    "rxjs": "^7.5.4"
+  "bugs": {
+    "url": "https://github.com/victorradael/protofiles-repo/issues"
   },
+  "homepage": "https://github.com/victorradael/protofiles-repo#readme",
   "devDependencies": {
     "@types/node": "^17.0.21",
     "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.4"
   }
 }
